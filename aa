@@ -1,0 +1,383 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace RapFars
+{
+    public partial class Form1 : Form
+    {
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void amataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pictureBox6.ImageLocation = @"images\Sae-1.jpg";
+            pictureBox7.ImageLocation = @"images\Sae-2.jpg";
+            pictureBox5.ImageLocation = @"images\Sae-3.jpg";
+            pictureBox8.ImageLocation = @"images\Sae-4.jpg";
+            pictureBox3.ImageLocation = @"images\Sae-5.jpg";
+            pictureBox2.ImageLocation = @"images\Sae-6.jpg";
+            pnlPictures.Visible = true;
+            label8.Visible = true;
+            lblTitle.Visible = false;
+            label10.Visible = false;
+            label9.Visible = false;
+            label8.Text = "Sina - Sae";
+            picnasle.Visible = false;
+            amataToolStripMenuItem.Checked = true;
+            hiphopologistToolStripMenuItem.Checked = false;
+            mnu021KID.Checked = false;
+            gToolStripMenuItem.Checked = false;
+            نسل1ToolStripMenuItem.Checked = false;
+            نسل2ToolStripMenuItem.Checked = false;
+            نسل3ToolStripMenuItem.Checked = false;
+            نسل4ToolStripMenuItem.Checked = false;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlPictures_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void kIDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToolTip toolTip2 = new ToolTip();
+            toolTip2.SetToolTip(pictureBox6, "");
+            toolTip2.SetToolTip(pictureBox5, "");
+            ToolTip toolTip3 = new ToolTip();
+            toolTip3.SetToolTip(pictureBox6, "");
+            toolTip3.SetToolTip(pictureBox5, "");
+            ToolTip toolTip1 = new ToolTip();
+            toolTip1.SetToolTip(pictureBox2, "Cocktail");
+            toolTip1.SetToolTip(pictureBox8, "Fier in The Booth");
+            toolTip1.SetToolTip(pictureBox3, "Naghabel");
+
+            pictureBox6.ImageLocation = @"images\021kid.jpg";
+            pictureBox7.ImageLocation = @"images\021KID-1.jpg";
+            pictureBox5.ImageLocation = @"images\021kid-2.jpg";
+            pictureBox8.ImageLocation = @"images\021kid-3.jpg";
+            pictureBox3.ImageLocation = @"images\021KID-4.jpg";
+            pictureBox2.ImageLocation = @"images\021KID-5.jpg";
+            pnlPictures.Visible = true;
+            label9.Visible = true;
+            lblTitle.Visible = false;
+            label10.Visible = false;
+            label8.Visible = false;
+            label9.Text = "021KID";
+            picnasle.Visible = false;
+            amataToolStripMenuItem.Checked = false;
+            hiphopologistToolStripMenuItem.Checked = false;
+            mnu021KID.Checked = true;
+            gToolStripMenuItem.Checked = false;
+            نسل1ToolStripMenuItem.Checked = false;
+            نسل2ToolStripMenuItem.Checked = false;
+            نسل3ToolStripMenuItem.Checked = false;
+            نسل4ToolStripMenuItem.Checked = false;
+        }
+
+        private void gToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToolTip toolTip2 = new ToolTip();
+            toolTip2.SetToolTip(pictureBox6, "Zhen");
+            toolTip2.SetToolTip(pictureBox5, "Ye Jaye Dige");
+            ToolTip toolTip3 = new ToolTip();
+            toolTip3.SetToolTip(pictureBox6, "");
+            toolTip3.SetToolTip(pictureBox5, "");
+            ToolTip toolTip1 = new ToolTip();
+            toolTip1.SetToolTip(pictureBox2, "");
+            toolTip1.SetToolTip(pictureBox8, "");
+            toolTip1.SetToolTip(pictureBox3, "");
+
+            pictureBox6.ImageLocation = @"images\021G-1.jpg";
+            pictureBox7.ImageLocation = @"images\021G-2.jpg";
+            pictureBox5.ImageLocation = @"images\021G-3.jpg";
+            pictureBox8.ImageLocation = @"images\021G-4.jpg";
+            pictureBox3.ImageLocation = @"images\021G-5.jpg";
+            pictureBox2.ImageLocation = @"images\021G-6.jpg";
+            pnlPictures.Visible = true;
+            lblTitle.Visible = false;
+            label10.Visible = true;
+            label8.Visible = false;
+            label9.Visible = false;
+            label10.Text = "021G";
+            picnasle.Visible = false;
+            amataToolStripMenuItem.Checked = false;
+            hiphopologistToolStripMenuItem.Checked = false;
+            mnu021KID.Checked = false;
+            gToolStripMenuItem.Checked = true;
+            نسل1ToolStripMenuItem.Checked = false;
+            نسل2ToolStripMenuItem.Checked = false;
+            نسل3ToolStripMenuItem.Checked = false;
+            نسل4ToolStripMenuItem.Checked = false;
+
+        }
+
+        private void hiphopologistToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToolTip toolTip1 = new ToolTip();
+            toolTip1.SetToolTip(pictureBox2, "");
+            toolTip1.SetToolTip(pictureBox8, "");
+            toolTip1.SetToolTip(pictureBox3, "");
+            ToolTip toolTip2 = new ToolTip();
+            toolTip2.SetToolTip(pictureBox6, "");
+            toolTip2.SetToolTip(pictureBox5, "");
+            ToolTip toolTip3 = new ToolTip();
+            toolTip3.SetToolTip(pictureBox6, "5Am");
+            toolTip3.SetToolTip(pictureBox5, "Nardeboon +17");
+            pictureBox6.ImageLocation = @"images\hiphopologist-1.jpg";
+            pictureBox7.ImageLocation = @"images\hiphopologist-2.jpg";
+            pictureBox5.ImageLocation = @"images\hiphopologist-3.jpg";
+            pictureBox8.ImageLocation = @"images\hiphopologist-4.jpg";
+            pictureBox3.ImageLocation = @"images\hiphopologist-5.jpg";
+            pictureBox2.ImageLocation = @"images\hiphopologist-6.jpg";
+            pnlPictures.Visible = true;
+            lblTitle.Visible = true;
+            label10.Visible = false;
+            label8.Visible = false;
+            label9.Visible = false;
+            lblTitle.Text = "Hiphopologis";
+            picnasle.Visible = false;
+            amataToolStripMenuItem.Checked = false;
+            hiphopologistToolStripMenuItem.Checked = true;
+            mnu021KID.Checked = false;
+            gToolStripMenuItem.Checked = false;
+            نسل1ToolStripMenuItem.Checked = false;
+            نسل2ToolStripMenuItem.Checked = false;
+            نسل3ToolStripMenuItem.Checked = false;
+            نسل4ToolStripMenuItem.Checked = false;
+        }
+
+        private void cocktailGillaassToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Media.SoundPlayer player;
+            player = new System.Media.SoundPlayer(@"sounds\Cocktail-c1m.wav");
+            player.Play();
+        }
+
+        private void zhen_Click(object sender, EventArgs e)
+        {
+            System.Media.SoundPlayer player;
+            player = new System.Media.SoundPlayer(@"sounds\zhen_ong.wav");
+            player.Play();
+        }
+
+        private void g2_Click(object sender, EventArgs e)
+        {
+            System.Media.SoundPlayer player;
+            player = new System.Media.SoundPlayer(@"sounds\GHORS_II_caP.wav");
+            player.Play();
+        }
+
+        private void hazyoon_Click(object sender, EventArgs e)
+        {
+            System.Media.SoundPlayer player;
+            player = new System.Media.SoundPlayer(@"sounds\Hazyoon_naS.wav");
+            player.Play();
+        }
+
+        private void stopToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Media.SoundPlayer player;
+            player = new System.Media.SoundPlayer(@"sounds\Hazyoon_naS.wav");
+            player = new System.Media.SoundPlayer(@"sounds\GHORS_II_caP.wav");
+            player = new System.Media.SoundPlayer(@"sounds\zhen_ong.wav");
+            player = new System.Media.SoundPlayer(@"sounds\Cocktail-c1m.wav");
+            player.Stop();
+
+        }
+
+        private void خروجToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+        }
+
+        private void pictureBox8_MouseClick(object sender, MouseEventArgs e)
+        {
+            System.Media.SoundPlayer player;
+            player = new System.Media.SoundPlayer(@"sounds\Booth.wav");
+            player.Play();
+        }
+
+        private void pictureBox2_MouseClick_1(object sender, MouseEventArgs e)
+        {
+            System.Media.SoundPlayer player;
+            player = new System.Media.SoundPlayer(@"sounds\Cocktail-c1m.wav");
+            player.Play();
+        }
+
+        private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
+        {
+            System.Media.SoundPlayer player;
+            player = new System.Media.SoundPlayer(@"sounds\Naghabel.wav");
+            player.Play();
+        }
+
+        private void رپرهاToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void نسل1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            picnasle.ImageLocation = @"images\rapfa.jpg";
+            picnasle.Visible = true;
+            pnlPictures.Visible = false;
+            this.BackgroundImage = null;
+            this.BackColor = Color.DarkSlateBlue;
+            نسل1ToolStripMenuItem.Checked = true;
+            نسل2ToolStripMenuItem.Checked = false;
+            نسل3ToolStripMenuItem.Checked = false;
+            نسل4ToolStripMenuItem.Checked = false;
+            amataToolStripMenuItem.Checked = false;
+            hiphopologistToolStripMenuItem.Checked = false;
+            mnu021KID.Checked = false;
+            gToolStripMenuItem.Checked = false;
+        }
+
+        private void نسل2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            picnasle.ImageLocation = @"images\Nasle-2.jpg";
+            picnasle.Visible = true;
+            pnlPictures.Visible = false;
+            this.BackgroundImage = null;
+            this.BackColor = Color.DarkSlateBlue;
+            نسل1ToolStripMenuItem.Checked = false;
+            نسل2ToolStripMenuItem.Checked = true;
+            نسل3ToolStripMenuItem.Checked = false;
+            نسل4ToolStripMenuItem.Checked = false;
+            amataToolStripMenuItem.Checked = false;
+            hiphopologistToolStripMenuItem.Checked = false;
+            mnu021KID.Checked = false;
+            gToolStripMenuItem.Checked = false;
+        }
+
+        private void نسل3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            picnasle.ImageLocation = @"images\Nasle-3.jpg";
+            picnasle.Visible = true;
+            pnlPictures.Visible = false;
+            this.BackgroundImage = null;
+            this.BackColor = Color.DarkSlateBlue;
+            نسل1ToolStripMenuItem.Checked = false;
+            نسل2ToolStripMenuItem.Checked = false;
+            نسل3ToolStripMenuItem.Checked = true;
+            نسل4ToolStripMenuItem.Checked = false;
+            amataToolStripMenuItem.Checked = false;
+            hiphopologistToolStripMenuItem.Checked = false;
+            mnu021KID.Checked = false;
+            gToolStripMenuItem.Checked = false;
+        }
+
+        private void نسل4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            picnasle.ImageLocation = @"images\Nasle-4.jpg";
+            picnasle.Visible = true;
+            pnlPictures.Visible = false;
+            this.BackgroundImage = null;
+            this.BackColor = Color.DarkSlateBlue;
+            نسل1ToolStripMenuItem.Checked = false;
+            نسل2ToolStripMenuItem.Checked = false;
+            نسل3ToolStripMenuItem.Checked = false;
+            نسل4ToolStripMenuItem.Checked = true;
+            amataToolStripMenuItem.Checked = false;
+            hiphopologistToolStripMenuItem.Checked = false;
+            mnu021KID.Checked = false;
+            gToolStripMenuItem.Checked = false;
+        }
+
+        private void فونتToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
+            label8.Font = fontDialog1.Font;
+            label9.Font = fontDialog1.Font;
+            label10.Font = fontDialog1.Font;
+            lblTitle.Font = fontDialog1.Font;
+
+        }
+
+        private void رنگزمینهToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            colorDialog1.ShowDialog();
+            lblTitle.BackColor = colorDialog1.Color;
+            label8.BackColor = colorDialog1.Color;
+            label9.BackColor = colorDialog1.Color;
+            label10.BackColor = colorDialog1.Color;
+        }
+
+        private void رنگکادرToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            colorDialog1.ShowDialog();
+            lblTitle.ForeColor = colorDialog1.Color;
+            label8.ForeColor = colorDialog1.Color;
+            label9.ForeColor = colorDialog1.Color;
+            label10.ForeColor = colorDialog1.Color;
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
+            label9.Font = fontDialog1.Font;
+        }
+
+        private void hiphopologistToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
+            lblTitle.Font = fontDialog1.Font;
+        }
+
+        private void sinaSaeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
+            label8.Font = fontDialog1.Font;
+        }
+
+        private void gToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
+            label10.Font = fontDialog1.Font;
+        }
+
+        private void fontDialog1_Apply(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+    }
+}
